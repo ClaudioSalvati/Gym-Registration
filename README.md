@@ -15,8 +15,12 @@ Trying to log in using credentials as payload didn't work, so I have them direct
 ### Retrieving the Studio Sheet ID
 This is is necessary for the registration, and as far as I could observe, it changes day after day - but not within a day. This is why I used scrapy to retrieve it.
 In this step, the studio ID is also used. The value is static and can be seen in the HTML code of the /sheet.php site, as well as in the dev tools in the passed data once you select if from the dropdown filter.
-### Registering
+### Registering for the next day
 Having Studio ID and the Studio Sheet ID, I put the URL together and Voilà! "Sie sind in diesen Kurs eingeschrieben!"
+For this step, having the parameters as payload didn't work either, therefore I have them once again in the URL.  
+### Email Sendout
+To have a notification of the - more or less - successful registration I use Gmail via SMTP. I created a new Gmail account just for this purpose.
+Any other SMTP client will probably work, after some adjustments to the script. 
 
 ## Credits
 The script is the result of several late evening sessions and tons of prompts with ChatGPT.
