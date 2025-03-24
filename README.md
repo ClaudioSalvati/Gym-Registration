@@ -23,7 +23,7 @@ To have a notification of the - more or less - successful registration I use Gma
 Any other SMTP client will probably work, after some adjustments to the script. 
 
 ## Credits
-The script is the result of several late evening sessions and tons of prompts with ChatGPT.
+The script is the result of several late evening sessions, after I was refused entry to the gym, even though I was sure I had registered online (manually). So without Elements' rejection, this script would not have been written.
 
 ## Disclaimer
-I offer the code as-is and as-available, and I make no representations or warranties of any kind concerning it, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable.
+I offer the code as-is and as-available, and I make no representations or warranties of any kind concerning it, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether not known or discoverable.
